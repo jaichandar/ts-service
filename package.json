@@ -1,0 +1,30 @@
+{
+  "name": "ts-service",
+  "version": "1.0.0",
+  "description": "timesheet service for employees",
+  "main": "server.ts",
+  "scripts": {
+    "test": "ts timesheet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaichandar/ts-service.git"
+  },
+  "keywords": [
+    "timesheet",
+    "ts",
+    "service",
+    "employee"
+  ],
+  "author": "Jaichandar.D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaichandar/ts-service/issues"
+  },
+  "homepage": "https://github.com/jaichandar/ts-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
